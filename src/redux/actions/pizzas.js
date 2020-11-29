@@ -11,7 +11,7 @@ export const fetchPizzas = (sortBy, category) => dispatch => {
       type:'SET_LOADED',
       payload: false,
     });
-    axios.get(`/pizzas?${category !== null ? `category=${category}`:''}&_sort=${sortBy}&_order=desc`).then(({ data }) => {
+    axios.get(`https://my-json-server.typicode.com/greenok-prog/react-pizza/pizzas?${category !== null ? `category=${category}`:''}&_sort=${sortBy}&_order=desc`).then(({ data }) => {
       dispatch(setPizzas(data))
     })
 };
