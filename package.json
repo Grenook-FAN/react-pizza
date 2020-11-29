@@ -34,7 +34,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://my-json-server.typicode.com/greenok-prog/react-pizza",
   "browserslist": {
     "production": [
       ">0.2%",
