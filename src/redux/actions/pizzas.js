@@ -6,7 +6,7 @@ export const setLoaded = payload => ({
 })
 
 
-export const fetchPizzas = () => dispatch => {
+export const fetchPizzas = ( category, sortBy) => dispatch => {
     dispatch({
       type:'SET_LOADED',
       payload: false,
