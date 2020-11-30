@@ -6,12 +6,12 @@ export const setLoaded = payload => ({
 })
 
 
-export const fetchPizzas = ( category, sortBy) => dispatch => {
+export const fetchPizzas = ( sortBy ) => dispatch => {
     dispatch({
       type:'SET_LOADED',
       payload: false,
     });
-    axios.get(`https://my-json-server.typicode.com/greenok-prog/react-pizza/pizzas?${category !== null ? `category=${category}`:''}&_sort=${sortBy}&_order=desc`).then(({ data }) => {
+    axios.get(`https://my-json-server.typicode.com/greenok-prog/react-pizza/pizzas?_sort=${sortBy}&_order=desc`).then(({ data }) => {
       //?${category !== null ? `category=${category}`:''}&_sort=${sortBy}&_order=desc
       dispatch(setPizzas(data))
     })
