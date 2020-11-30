@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-pizza/static/css/main.49797e83.chunk.css",
-    "main.js": "/react-pizza/static/js/main.bc58e83c.chunk.js",
-    "main.js.map": "/react-pizza/static/js/main.bc58e83c.chunk.js.map",
+    "main.js": "/react-pizza/static/js/main.1789a689.chunk.js",
+    "main.js.map": "/react-pizza/static/js/main.1789a689.chunk.js.map",
     "runtime-main.js": "/react-pizza/static/js/runtime-main.6ae0da48.js",
     "runtime-main.js.map": "/react-pizza/static/js/runtime-main.6ae0da48.js.map",
     "static/js/2.4deff663.chunk.js": "/react-pizza/static/js/2.4deff663.chunk.js",
     "static/js/2.4deff663.chunk.js.map": "/react-pizza/static/js/2.4deff663.chunk.js.map",
     "index.html": "/react-pizza/index.html",
-    "precache-manifest.84c29b54a2c4feef339a6bda75dc8b44.js": "/react-pizza/precache-manifest.84c29b54a2c4feef339a6bda75dc8b44.js",
+    "precache-manifest.69a5399daa2602bf58ace19367033387.js": "/react-pizza/precache-manifest.69a5399daa2602bf58ace19367033387.js",
     "service-worker.js": "/react-pizza/service-worker.js",
     "static/css/main.49797e83.chunk.css.map": "/react-pizza/static/css/main.49797e83.chunk.css.map",
     "static/js/2.4deff663.chunk.js.LICENSE.txt": "/react-pizza/static/js/2.4deff663.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.6ae0da48.js",
     "static/js/2.4deff663.chunk.js",
     "static/css/main.49797e83.chunk.css",
-    "static/js/main.bc58e83c.chunk.js"
+    "static/js/main.1789a689.chunk.js"
   ]
 }
